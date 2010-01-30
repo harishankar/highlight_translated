@@ -1,0 +1,23 @@
+HighlightTranslated
+===================
+
+This is a simple plugin to highlight (in green) all translated text shown on your page.
+The purpose here is to ease front-end development and testing to identify the missing text pieces that need to be added to respective .yml files.
+This plugin also puts a comment containing the actual key of the translated value.
+
+Note: This is a work in progress plugin with test cases to be written.
+
+Extracted from
+==============
+
+Sapna Solutions (www.sapnasolutions.com) currently internal transl8 plugin.
+
+Use it
+=======
+
+Drop this plugin into your project's vendor/plugins folder. Restart the server. This will show up all the translated content in green. View source for the comment with the key.
+
+For Firebug users click on the down-arrow icon in HTML tab and enable 'Show Comments' to see the comments.
+
+
+Copyright (c) 2010 Harishankar Kannan, released under the MIT license
